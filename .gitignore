@@ -1,0 +1,43 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Testing & Coverage ────────────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+*.log
+
+# ── Environment / Secrets ─────────────────────────────────────────────
+backend/.env
+# Use backend/.env.example as a template
+
+# ── Runtime Data (generated at runtime, not source code) ─────────────
+backend/uploads/
+backend/faiss_store/
+backend/test_uploads/
+
+# ── Node.js / Frontend ────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ── OS / Editor ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

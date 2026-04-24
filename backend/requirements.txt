@@ -1,0 +1,29 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# MongoDB
+motor
+pymongo
+
+# PDF Processing
+pdfplumber
+
+# AI / LLM
+groq
+
+# Vector Search
+faiss-cpu
+numpy
+sentence-transformers
+
+# Utilities
+python-dotenv
+httpx
+aiofiles
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
